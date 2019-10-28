@@ -3,8 +3,9 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid, { GridSpacing } from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { Typography, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Toolbar } from '@material-ui/core';
+import { Typography, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Toolbar, TextField, Button } from '@material-ui/core';
 import ExpansionItem from '../expansion-items/ExpansionItems';
+import * as dummy from '../../assets/dummy.json'
 
 const useStyles = makeStyles((theme: Theme) =>
     createStyles({
@@ -15,7 +16,8 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         paper: {
             height: '88vh',
-            width: 450
+            width: 450,
+            overflow: 'scroll',
         },
         control: {
             padding: theme.spacing(2),
@@ -26,17 +28,23 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         unCenter: {
             textAlign: "left",
+        },
+        textField: {
+            marginLeft: theme.spacing(1),
+            marginRight: theme.spacing(1),
+            width: "100%",
         }
     }),
 );
 
 export default function SpacingGrid() {
     const [spacing, setSpacing] = React.useState<GridSpacing>(2);
+    const [urlVal, setUrlVal] = React.useState('');
     const classes = useStyles();
-    const data: any = [{ a: 1 }, { b: { x: 1 } }, 1, [{ a: { x: 9 } }, 'v', 'x']];
-
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setSpacing(Number((event.target as HTMLInputElement).value) as GridSpacing);
+    const data: any = dummy;
+    const pathContext = React.createContext('');
+    const handleChange = (newPath: string) => (event: React.ChangeEvent<HTMLInputElement>) => {
+        setUrlVal(event.target.value);
     };
 
     return (
@@ -58,7 +66,22 @@ export default function SpacingGrid() {
             <Grid item>
                 <Paper className={classes.paper}>
                     <Toolbar>
-                        <Typography variant="h6">Explorer</Typography>
+                        <TextField
+                            id="outlined-name"
+                            placeholder="Name"
+                            className={classes.textField}
+                            value={urlVal}
+                            onChange={handleChange('name')}
+                            margin="normal"
+                            variant="filled"
+                            InputProps={{
+                                readOnly: true,
+                            }}
+                            InputLabelProps={{
+                                shrink: true,
+                            }}
+                        />
+                        <Button size="small">Copy</Button>
                     </Toolbar>
                     {
                         Object.keys(data).map((key: any, i: number) => {
@@ -73,7 +96,7 @@ export default function SpacingGrid() {
             </Grid>
             <Grid item>
                 <Paper className={classes.paper}>
-                <Toolbar>
+                    <Toolbar>
                         <Typography variant="h6">Data Mapper</Typography>
                     </Toolbar>
                     <Typography variant="h5" component="h3">

@@ -1,0 +1,887 @@
+[
+    {
+        "id": 685327,
+        "nickname": "Free Blue Checking",
+        "associated": true,
+        "excluded": false,
+        "hidden": false,
+        "preferredAccount": false,
+        "number": "******4549",
+        "source": "INTERNAL",
+        "status": "OPEN",
+        "name": "FREE BLUE",
+        "routingTransitNumber": "082900872",
+        "balance": 4302.510000,
+        "balanceType": "AVAILABLE",
+        "statementPreferenceType": "ELECTRONIC",
+        "openDate": "2008-08-18",
+        "profileType": "CONSUMER",
+        "product": {
+            "id": 114,
+            "name": "Free Blue Checking",
+            "accountingClass": "ASSET"
+        },
+        "lastSyncTime": "2019-10-28T08:58:31.977Z",
+        "updatedTimestamp": "2019-10-28T00:26:58.063Z",
+        "attributes": [
+            {
+                "name": "d3MoneyMovement.achTransfer.ccd.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ppd.from.amount",
+                "value": "5000.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "Account Number",
+                "value": "42914549",
+                "type": "STRING",
+                "displayOrder": 10
+            },
+            {
+                "name": "d3Permission.display.images",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.billPayment.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.from.amount",
+                "value": "0.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.to.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.to.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ccd.from.limit",
+                "value": "10",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "YtdInterest",
+                "value": "",
+                "type": "PERCENT",
+                "displayOrder": 1000
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.web.from.amount",
+                "value": "5000.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "OverdraftType",
+                "value": "",
+                "type": "STRING",
+                "displayOrder": 800
+            },
+            {
+                "name": "d3MoneyMovement.billPayment.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.show.in.accounts.widget",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.p2p.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "LastDepositAmount",
+                "value": "",
+                "type": "MONEY",
+                "displayOrder": 500
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.a2a.from.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "LastDepositDate",
+                "value": "",
+                "type": "DATE",
+                "displayOrder": 600
+            },
+            {
+                "name": "This Year's Interest",
+                "value": ".00",
+                "type": "MONEY",
+                "displayOrder": 60
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.web.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ppd.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.onUsTransfer.from.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.allow.check.orders",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.onUsTransfer.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.rdc.amount",
+                "value": "0.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.to.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.cie.from.limit",
+                "value": "10",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "Overdraft Type",
+                "value": "Extended Overdraft Protection",
+                "type": "STRING",
+                "displayOrder": 90
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.cie.from.amount",
+                "value": "5000.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ccd.from.amount",
+                "value": "5000.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.from.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "FinanceChargeServiceFee",
+                "value": "",
+                "type": "MONEY",
+                "displayOrder": 100
+            },
+            {
+                "name": "LastStatementDate",
+                "value": "",
+                "type": "DATE",
+                "displayOrder": 400
+            },
+            {
+                "name": "d3Permission.allow.estatements",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "OverdraftLimit",
+                "value": "",
+                "type": "MONEY",
+                "displayOrder": 700
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.to.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.show.in.accounts.snapshot",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.billPayment.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "RateOfReturn",
+                "value": "",
+                "type": "PERCENT",
+                "displayOrder": 900
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ppd.from.limit",
+                "value": "10",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "Last Year's Interest",
+                "value": ".00",
+                "type": "MONEY",
+                "displayOrder": 75
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.web.from.limit",
+                "value": "10",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.stop.payment",
+                "value": "false",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.to.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "LastYearsInterest",
+                "value": "",
+                "type": "PERCENT",
+                "displayOrder": 1100
+            },
+            {
+                "name": "d3Permission.allow.account.balance.alert",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "Overdraft Limit",
+                "value": "400",
+                "type": "MONEY",
+                "displayOrder": 65
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.a2a.from.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.p2p.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.p2p.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "InterestRate",
+                "value": ".00",
+                "type": "PERCENT",
+                "displayOrder": 25
+            },
+            {
+                "name": "Account Type",
+                "value": "Checking",
+                "type": "STRING",
+                "displayOrder": 2500
+            },
+            {
+                "name": "d3MoneyMovement.onUsTransfer.from.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "Total Holds",
+                "value": ".00",
+                "type": "MONEY",
+                "displayOrder": 100
+            },
+            {
+                "name": "d3Permission.show.in.transactions.snapshot",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.show.in.transactions.widget",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.sync.transactions",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.rdc.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "Routing Number",
+                "value": "082900872",
+                "type": "STRING",
+                "displayOrder": 1
+            },
+            {
+                "name": "d3Permission.allow.brokerage.access",
+                "value": "false",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.eligible.for.cards",
+                "value": "false",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.overdraft.protection",
+                "value": "false",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "HoldAmount",
+                "value": "",
+                "type": "MONEY",
+                "displayOrder": 200
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.cie.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.rdc.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.to.amount",
+                "value": "0.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.a2a.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            }
+        ],
+        "accountId": 610282,
+        "hasTransactionsAccess": true,
+        "hasStatementsAccess": true,
+        "hasAchAccess": false,
+        "hasBillPayAccess": false,
+        "hasTransferAccess": true,
+        "hasWireAccess": true,
+        "overdraftEnrolled": false
+    },
+    {
+        "id": 1902236,
+        "associated": true,
+        "excluded": false,
+        "hidden": false,
+        "preferredAccount": false,
+        "number": "******2072",
+        "source": "INTERNAL",
+        "status": "OPEN",
+        "name": "SAVINGS",
+        "routingTransitNumber": "082900872",
+        "balance": 1650.680000,
+        "balanceType": "AVAILABLE",
+        "statementPreferenceType": "PAPER",
+        "openDate": "2017-03-29",
+        "profileType": "CONSUMER",
+        "product": {
+            "id": 128,
+            "name": "Savings",
+            "accountingClass": "ASSET"
+        },
+        "lastSyncTime": "2019-10-28T08:58:31.977Z",
+        "updatedTimestamp": "2019-10-17T05:35:06.800Z",
+        "attributes": [
+            {
+                "name": "d3MoneyMovement.achTransfer.ccd.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ppd.from.amount",
+                "value": "5000.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "Account Number",
+                "value": "85972072",
+                "type": "STRING",
+                "displayOrder": 10
+            },
+            {
+                "name": "d3Permission.display.images",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.billPayment.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.from.amount",
+                "value": "0.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.to.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.to.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ccd.from.limit",
+                "value": "10",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "YtdInterest",
+                "value": "",
+                "type": "PERCENT",
+                "displayOrder": 1000
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.web.from.amount",
+                "value": "5000.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "OverdraftType",
+                "value": "",
+                "type": "STRING",
+                "displayOrder": 800
+            },
+            {
+                "name": "d3MoneyMovement.billPayment.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.show.in.accounts.widget",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.p2p.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "LastDepositAmount",
+                "value": "",
+                "type": "MONEY",
+                "displayOrder": 500
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.a2a.from.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "LastDepositDate",
+                "value": "",
+                "type": "DATE",
+                "displayOrder": 600
+            },
+            {
+                "name": "This Year's Interest",
+                "value": "3.63",
+                "type": "MONEY",
+                "displayOrder": 60
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.web.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ppd.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.onUsTransfer.from.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.allow.check.orders",
+                "value": "false",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.onUsTransfer.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.rdc.amount",
+                "value": "0.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.to.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.cie.from.limit",
+                "value": "10",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "Overdraft Type",
+                "value": "No Overdraft Coverage",
+                "type": "STRING",
+                "displayOrder": 90
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.cie.from.amount",
+                "value": "5000.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ccd.from.amount",
+                "value": "5000.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.from.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "FinanceChargeServiceFee",
+                "value": "",
+                "type": "MONEY",
+                "displayOrder": 100
+            },
+            {
+                "name": "LastStatementDate",
+                "value": "",
+                "type": "DATE",
+                "displayOrder": 400
+            },
+            {
+                "name": "d3Permission.allow.estatements",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "OverdraftLimit",
+                "value": "",
+                "type": "MONEY",
+                "displayOrder": 700
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.to.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.show.in.accounts.snapshot",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.billPayment.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "RateOfReturn",
+                "value": "",
+                "type": "PERCENT",
+                "displayOrder": 900
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.ppd.from.limit",
+                "value": "10",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "Last Year's Interest",
+                "value": "2.85",
+                "type": "MONEY",
+                "displayOrder": 75
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.web.from.limit",
+                "value": "10",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.stop.payment",
+                "value": "false",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.to.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "LastYearsInterest",
+                "value": "",
+                "type": "PERCENT",
+                "displayOrder": 1100
+            },
+            {
+                "name": "d3Permission.allow.account.balance.alert",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "Overdraft Limit",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 65
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.a2a.from.amount",
+                "value": "0",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.p2p.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.p2p.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "InterestRate",
+                "value": ".40",
+                "type": "PERCENT",
+                "displayOrder": 25
+            },
+            {
+                "name": "Account Type",
+                "value": "Savings",
+                "type": "STRING",
+                "displayOrder": 2500
+            },
+            {
+                "name": "d3MoneyMovement.onUsTransfer.from.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "Total Holds",
+                "value": ".00",
+                "type": "MONEY",
+                "displayOrder": 100
+            },
+            {
+                "name": "d3Permission.show.in.transactions.snapshot",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.show.in.transactions.widget",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.sync.transactions",
+                "value": "true",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.rdc.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "Routing Number",
+                "value": "082900872",
+                "type": "STRING",
+                "displayOrder": 1
+            },
+            {
+                "name": "d3Permission.allow.brokerage.access",
+                "value": "false",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.eligible.for.cards",
+                "value": "false",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3Permission.overdraft.protection",
+                "value": "false",
+                "type": "BOOLEAN",
+                "displayOrder": 0
+            },
+            {
+                "name": "HoldAmount",
+                "value": "",
+                "type": "MONEY",
+                "displayOrder": 200
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.cie.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.rdc.limit",
+                "value": "0",
+                "type": "INTEGER",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.fundsTransfer.to.amount",
+                "value": "0.00",
+                "type": "MONEY",
+                "displayOrder": 0
+            },
+            {
+                "name": "d3MoneyMovement.achTransfer.a2a.from.duration",
+                "value": "MONTHLY",
+                "type": "STRING",
+                "displayOrder": 0
+            }
+        ],
+        "accountId": 1533549,
+        "hasTransactionsAccess": true,
+        "hasStatementsAccess": true,
+        "hasAchAccess": false,
+        "hasBillPayAccess": false,
+        "hasTransferAccess": true,
+        "hasWireAccess": true,
+        "overdraftEnrolled": false
+    }
+]

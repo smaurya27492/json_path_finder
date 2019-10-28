@@ -13,14 +13,21 @@ const useStyles = makeStyles((theme: Theme) =>
             height: '88vh',
             width: 450
         },
+        panel: {
+            margin: '2px'
+        },
         control: {
             padding: theme.spacing(2),
         },
         heading: {
             fontSize: theme.typography.pxToRem(15),
             fontWeight: theme.typography.fontWeightRegular,
+            wordWrap: "break-word"
         },
-        fullWidth: { width: '100%' }
+        fullWidth: { width: '100%' },
+        flexCol: {
+            flexDirection: 'column',
+        }
     }),
 );
 export default function ExpansionItem(props: any) {
@@ -30,23 +37,28 @@ export default function ExpansionItem(props: any) {
     const handleChange = (panel: string) => (event: React.ChangeEvent<{}>, isExpanded: boolean) => {
         setExpanded(isExpanded ? panel : false);
     };
+    const handleClick = (event: React.ChangeEvent<{}>) => {
+
+    };
+
     return (
         <div className={classes.fullWidth}>
-            <ExpansionPanel>
+            <ExpansionPanel className={classes.panel}>
                 <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1a-content"
                     id="panel1a-header"
+                    onClick={handleClick}
                 >
                     <Typography className={classes.heading}>{props.title}</Typography>
                 </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
+                <ExpansionPanelDetails className={classes.flexCol}>
                     {typeof props.val === "object" ?
                         Object.keys(props.val).map((innerKey: any, i: number) => {
                             return (<ExpansionItem title={innerKey} val={props.val[innerKey]} key={i}></ExpansionItem>)
                         })
                         :
-                        <Typography className={classes.heading}>{props.val}</Typography>
+                        <Typography className={classes.heading}>{props.val.toString()}</Typography>
                     }
                 </ExpansionPanelDetails>
             </ExpansionPanel>
